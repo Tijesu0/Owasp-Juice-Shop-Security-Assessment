@@ -52,3 +52,6 @@ Testing involved interacting with application's browser accessible functionality
 Burp Suit was used to support HTTP traffic inspection and manipulation through the following components:
 1. Proxy: Used to intercept and inspect HTTP requests and responses generated during application interactions.
 2. Repeater: Used to modify and resend HTTP requests to examine server-side behavior under different input conditions.
+
+Testing focused on identifying weaknesses in authentication, token handling, access control and input processing.
+Identified vulnerabilities were investigated and documented with supporting evidence.
