@@ -55,3 +55,12 @@ Burp Suit was used to support HTTP traffic inspection and manipulation through t
 
 Testing focused on identifying weaknesses in authentication, token handling, access control and input processing.
 Identified vulnerabilities were investigated and documented with supporting evidence.
+
+## 6. Assessment Limitations
+The assessment was conducted manually without automated vulnerability scanning tools.
+The following limitations applied:
+1. No automated vulnerability scanning was performed using Burp Suit Scanner.
+2. Source code review was not conducted.
+3. Infrastructure level security testing was not performed
+4. Testing was limited to the application functionality and endpoints examined during the assessment.
+5. Findings should not be interpreted as evidence that all application vulnerabilities have been identified.  
