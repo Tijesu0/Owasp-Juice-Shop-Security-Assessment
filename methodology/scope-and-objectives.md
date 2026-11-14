@@ -45,3 +45,10 @@ The following activities were excluded from this assessment:
 3. Denial of service and stress testing
 4. Social engineering testing.
 5. Attacks against external systems or unrelated third party services.
+
+## 5. Testing Approach
+The assessment was conducted using a manual black-box testing approach.
+Testing involved interacting with application's browser accessible functionality and examining HTTP communication between the browser and the application.
+Burp Suit was used to support HTTP traffic inspection and manipulation through the following components:
+1. Proxy: Used to intercept and inspect HTTP requests and responses generated during application interactions.
+2. Repeater: Used to modify and resend HTTP requests to examine server-side behavior under different input conditions.
