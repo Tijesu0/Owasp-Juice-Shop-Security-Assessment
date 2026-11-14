@@ -20,3 +20,11 @@ November 2026
 
 ## Tester:
 Tijesu0
+
+## 2.Assessment Objectives
+The objectives of this assessment were to:
+1. Examine the application functionality and identify potential attack surface.
+2. Evaluate authentication mechanisms and JWT handling
+3. Assess access-control enforcement and identify unauthenticated access possibilities
+4. Investigate input-handling weaknesses, including SQL injection and cross-site scripting
+5. Document identified vulnerabilities, demonstrate their impact and recommend remediation measures
