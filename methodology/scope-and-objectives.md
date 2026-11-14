@@ -9,5 +9,14 @@ This assessment involves examining application functionality, investigating secu
 ## Assessment Environment:
 Locally hosted instance
 
-## Assessment Type: Web Application Penetration Testing
+## Assessment Type: 
+Web Application Penetration Testing
 
+## Testing Approach:
+Manual Security Testing
+
+## Assessment Period:
+November 2026
+
+## Tester:
+Tijesu0
