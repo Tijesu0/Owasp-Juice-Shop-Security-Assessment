@@ -29,3 +29,23 @@ Rather than relying o automated endpoint discovery tools or guessing paths, the 
 When investigating individual features, the corresponding HTTP requests were examined to identify the endpoints responsible for handling those operations.
 
 These endpoints subsequently served as entry points for manual security testing
+
+
+## 4. HTTP Request and Response Analysis
+During reconnaissance, HTTP requests and responses were examined to understand the data exchanged between the browser and application server.
+The examination included:
+1. Request URLs and parameters: identifying endpoint paths and values supplied to application operations.
+2. HTTP headers: Examining metadata and authentication related information included in reports.
+3. Requests bodies: inspecting data submitted to the application.
+4. Identifiers: Observing references to users and other application resources.
+5. Authentication data: Examining authentication related tokens and session information where present.
+6. Server responses: Observing returned data, status codes and application behavior.
+
+This analysis helped establish how application operations were structured and provided additional context for investigating potential security weaknesses.
+
+## 5. Reconnaissance Summary
+The reconnaissance phase established an understanding of the application's functionality, business logic, user workflows and HTTP communication.
+
+Application features were explored manually while Burp Suit Proxy was used to identify API endpoints and examine the requests and responses associated with individual operations.
+
+The information gathered during this phase provided the foundation for subsequent manual security testing.
