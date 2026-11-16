@@ -28,7 +28,7 @@ An authenticated attacker could access other users' shopping basket contents by 
 This exposes information about other users' shopping activity, including the products they have added to their baskets.
 
 ## Recommended Remediation
-1.Enforce server-side ownership checks whenever a basket is accessed.
+1. Enforce server-side ownership checks whenever a basket is accessed.
 2. Derive the authenticated user's identity from the server-side authentication context.
-3.Verify that the requested basket belongs to that user before returning its contents.
-4.Reject unauthorized requests rather than relying on unpredictable or difficult-to-guess basket identifiers.
+3. Verify that the requested basket belongs to that user before returning its contents.
+4. Reject unauthorized requests rather than relying on unpredictable or difficult-to-guess basket identifiers.
