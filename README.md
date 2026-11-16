@@ -1,4 +1,4 @@
-# Web-Application-Penetration Testing
+# Owasp-Juice-Shop-Security-Assessment
 
 ## Project Overview
 This project documents a security assessment of OWASP Juice Shop, an intentionally vulnerable web application designed for security testing and education.
