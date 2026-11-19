@@ -10,8 +10,6 @@ Manual Black Box Web Application Security Testing
 ## Assessment Period: 
 November 2026
 
-Status: 
-Ongoing
 
 ## Executive Summary
 A manual security assessment was conducted against OWASP Juice Shop to identify vulnerabilities affecting application security, authentication, authorization and 
