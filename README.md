@@ -35,4 +35,4 @@ Manual black-box web application security testing
 Testing was performed against the intentionally vulnerable OWASP Juice Shop environment for educational and portfolio purposes.
 
 ## Findings
--[WEB-001-Unauthorized- Product-Review-Authorship](https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/commit/d7b4cb77922690e5a1a7e69dff442eafe89ac8ed)
+-[WEB-001-Unauthorized- Product-Review-Authorship](https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/blob/main/findings/WEB-001-Unauthorized-%20Product-Review-Authorship.md)
