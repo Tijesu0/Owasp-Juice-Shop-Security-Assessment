@@ -8,7 +8,7 @@ Broken Access Control (CWE-639)
 ```PUT /rest/product/1/reviews```
 
 ## Summary
-The product review functionality allows an authenticated users to submit reviews with client controlled author identity.
+The product review functionality allows an authenticated user to submit reviews with client controlled author identity.
 
 Testing revealed that a authenticated user can manipulate the author parameter in a review submission request to publish a review under another existing user's
 identity, including an administrator's account.
@@ -29,7 +29,7 @@ The application accepts the client supplied author identity without adequately v
 A review submitted using a different user's identity is successfully created and displayed under that user's account.
 
 ## Security Impact
-This vulnerability allows authenticated users to impersonate other accounts within the product review system.
+This vulnerability allows an authenticated user to impersonate another user's identity.
 
 An attacker could:
 * Publish reviews under another users identity.
