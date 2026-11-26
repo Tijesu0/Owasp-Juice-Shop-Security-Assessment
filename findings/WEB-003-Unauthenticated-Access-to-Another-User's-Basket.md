@@ -9,7 +9,7 @@ Shopping Basket
 
 ## Summary
 The shopping basket functionality contains an object-level authorization vulnerability (IDOR/BOLA).
-Although the endpoint requires a valid authenticated session, it fails to verify that the requested basket belongs to the current logged-in user. By changing the basket identifier from 6 to 1 in the HTTP request, an authenticated user can view another users basket.
+Although the endpoint requires a valid authenticated session, it fails to verify that the requested basket belongs to the current logged-in user. By changing the basket identifier from 6 to 1 in the HTTP request, an authenticated user can view another user's basket.
 
 ## Steps to Reproduce
 1. Authenticate using a standard user account.
