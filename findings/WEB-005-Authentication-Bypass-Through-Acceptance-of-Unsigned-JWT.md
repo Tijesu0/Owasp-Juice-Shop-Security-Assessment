@@ -1,9 +1,11 @@
 ## Severity:
 Critical
 
-## Vulnerability Category: Authentication Bypass/ Improper JWT Signature Verification (CWE-345)
+## Vulnerability Category: 
+Authentication Bypass/ Improper JWT Signature Verification (CWE-345)
 
-## Affected Functionality: JWT Based Authentication
+## Affected Functionality: 
+JWT Based Authentication
 
 ## Summary
 The application fails to properly verify JSON Web Token (JWT) signatures, allowing an attacker to modify token claims and authenticate using a forged, unsigned token.
