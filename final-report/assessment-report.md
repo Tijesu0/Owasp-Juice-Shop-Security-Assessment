@@ -14,7 +14,7 @@ Ongoing
 
 ## Executive Summary
 A manual security assessment was conducted against OWASP Juice Shop to identify vulnerabilities affecting application security, authentication, authorization and input handling.
-Five vulnerabilities were identified, including critical authentication bypasses via unsigned JWTs and empty credentials, alongside broken access control and client-side XSS flaws
+Five vulnerabilities were identified, including critical authentication bypasses via unsigned JWTs and empty credentials, alongside broken access control and client-side XSS flaws.
 
 ## Scope and Methodology
 Testing focused on application functionality, API endpoints, authentication, authorization, input handling and business logic.
