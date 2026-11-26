@@ -43,4 +43,4 @@ Testing was performed against the intentionally vulnerable OWASP Juice Shop envi
 
 -[WEB-004-Account-Registration-and-Authentication-with-Empty-Credentials](https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/blob/main/findings/WEB-004-Account-Registration-and-Authentication-with-Empty-Credentials.md)
 
--[WEB-005-Authentication-Bypass-Through-Acceptance-of-Unsigned-JWT](https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/blob/main/findings/WEB-005-Authention-Bypass-Through-Acceptance-of-Unsigned-JWT.md)
+-[WEB-005-Authentication-Bypass-Through-Acceptance-of-Unsigned-JWT](https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/blob/main/findings/WEB-005-Authentication-Bypass-Through-Acceptance-of-Unsigned-JWT.md)
