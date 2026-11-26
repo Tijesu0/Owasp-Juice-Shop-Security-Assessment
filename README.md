@@ -17,10 +17,10 @@ The assessment focuses on identifying, investigating, reproducing and documentin
 - Firefox
 
 ## Repository Structure
-- (methodology)[https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/tree/main/methodology]: Testing approach and procedures.
-- (findings)[https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/tree/main/findings]: Documented security vulnerabilities.
-- (evidence)[https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/tree/main/evidence]: Supporting screenshots and other evidence for documented vulnerabilities.
-- (final-report)[https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/tree/main/final-report]: Consolidated assessment report.
+- [methodology](https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/tree/main/methodology): Testing approach and procedures.
+- [findings](https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/tree/main/findings): Documented security vulnerabilities.
+- [evidence](https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/tree/main/evidence): Supporting screenshots and other evidence for documented vulnerabilities.
+- [final-report](https://github.com/Tijesu0/Owasp-Juice-Shop-Security-Assessment/tree/main/final-report): Consolidated assessment report.
 
 ## Target Application
 OWASP Juice Shop
