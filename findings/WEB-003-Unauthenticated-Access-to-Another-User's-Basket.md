@@ -1,8 +1,8 @@
 ## Severity:
 Medium
 
-## Vulnerability Category: Broken Access Control
-(IDOR/BOLA) (CWE-639)
+## Vulnerability Category:
+Broken Access Control (IDOR/BOLA) (CWE-639)
 
 ## Affected Functionality:
 Shopping Basket
