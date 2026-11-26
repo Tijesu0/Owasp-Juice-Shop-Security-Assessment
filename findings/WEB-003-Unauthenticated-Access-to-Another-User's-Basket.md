@@ -1,12 +1,15 @@
+## Severity:
+Medium
+
+## Vulnerability Category: Broken Access Control
+(IDOR/BOLA) (CWE-639)
+
+## Affected Functionality:
+Shopping Basket
+
 ## Summary
-The basket functionality contains an object level authorization vulnerability that allows an authenticated user to access aother user's basket by modifying the basket
-identifier in an HTTP request.
-
-Changing the basket identifier from 6 to 1 resulted in the application returing the contents of another user's basket.
-
-## Affected Functionality: Shopping Basket
-
-## Vulnerability Category: Broken Access Control (IDOR/BOLA)
+The shopping basket functionality contains an object-level authorization vulnerability (IDOR/BOLA).
+Although the endpoint requires a valid authenticated session, it fails to verify that the requested basket belongs to the current logged-in user. By changing the basket identifier from 6 to 1 in the HTTP request, an authenticated user can view another users basket.
 
 ## Steps to Reproduce
 1. Authenticate using a standard user account.
