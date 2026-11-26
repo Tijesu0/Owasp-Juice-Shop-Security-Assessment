@@ -1,6 +1,8 @@
-## Severity: Medium
+## Severity:
+Medium
 
-## Vulnerability Category: Broken Access Control
+## Vulnerability Category:
+Broken Access Control (CWE-639)
 
 ## Affected Endpoint:
 ```PUT /rest/product/1/reviews```
