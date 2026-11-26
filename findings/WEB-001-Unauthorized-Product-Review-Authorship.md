@@ -1,13 +1,15 @@
+## Severity: Medium
+
+## Vulnerability Category: Broken Access Control
+
+## Affected Endpoint:
+```PUT /rest/product/1/reviews```
+
 ## Summary
 The product review functionality allows an authenticated users to submit reviews with client controlled author identity.
 
 Testing revealed that a authenticated user can manipulate the author parameter in a review submission request to publish a review under another existing user's
 identity, including an administrator's account.
-
-## Affected Endpoint:
-```PUT /rest/product/1/reviews```
-
-## Vulnerability Category: Broken Access Control
 
 ## Steps to Reproduce
 1. Authenticate using a standard customer account.
