@@ -1,12 +1,14 @@
-## Summary
-The application fails to properly verify JSON Web Token (JWT) signatures, allowing an ##attacker to modify token claims and authenticate using a forged, unsigned 
-token.
-By changing the JWT signing algorithm to none, modifying the email claim and removing the signature, an attacker can submit a forged toke that the application
-accepts as valid authentication credentials.
+## Severity:
+Critical
+
+## Vulnerability Category: Authentication Bypass/ Improper JWT Signature Verification (CWE-345)
 
 ## Affected Functionality: JWT Based Authentication
 
-## Vulnerability Category: Authentication Bypass/ Improper JWT Signature Verification
+## Summary
+The application fails to properly verify JSON Web Token (JWT) signatures, allowing an attacker to modify token claims and authenticate using a forged, unsigned token.
+By changing the JWT signing algorithm to none, modifying the email claim and removing the signature, an attacker can submit a forged token that the application
+accepts as valid authentication credentials.
 
 ## Steps to Reproduce 
 1. Obtain a valid JWT from the application.
@@ -21,7 +23,7 @@ accepts as valid authentication credentials.
 
  Tokens using the unsupported or unsecured signing algorithms, including none, should be rejected.
 
- The application should also validate the tokens claims and ensure that the identity represented by the token corresponds to a legitimate account.
+ The application should also validate the token's claims and ensure that the identity represented by the token corresponds to a legitimate account.
 
  ## Actual Behavior
  The application accepts JWTs with signing algorithm set to none without requiring a valid cryptographic signature.
@@ -33,10 +35,9 @@ accepts as valid authentication credentials.
 
  This undermines the integrity of JWT based authentication and may allow attackers to impersonate other identities.
 
- If the vulnerability affects the platforms authentication API endpoints, it could potentially expose protected functionality and resources to unauthenticated 
- attackers.
+ If the vulnerability affects the platform's authentication API endpoints, it could potentially expose protected functionality and resources to unauthenticated attackers.
 
- ## Recommended Remedation
+ ## Recommended Remediation
  * Enforce cryptographic JWT signature verification on the server.
  * Explicitly allow list supported signing algorithms.
  * Reject tokens using the none algorithm.
