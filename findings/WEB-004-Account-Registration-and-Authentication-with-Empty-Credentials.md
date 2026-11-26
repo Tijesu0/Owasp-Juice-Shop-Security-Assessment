@@ -12,9 +12,6 @@ The application allows users to register and authenticate with empty email and p
 
 An attacker can bypass frontend validation by modifying registration and login requests, allowing an account to be created and accessed using empty credentials.
 
-
-## Vulnerability Category: Improper Input Validation/Authentication Weakness
-
 ## Steps to Reproduce
 1. Navigate to the registration page.
 2. Enter valid values into the email and password fields.
